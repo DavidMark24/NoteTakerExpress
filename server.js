@@ -14,3 +14,12 @@ const PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
+
+// GET request 
+
+app.get("/notes" , function(req, res) {
+    res.sendFile(path.join(_dirname, "public/notes.html"))
+
+});
+
+
