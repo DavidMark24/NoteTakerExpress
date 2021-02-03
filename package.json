@@ -1,0 +1,26 @@
+{
+  "name": "notetakerexpress",
+  "version": "1.0.0",
+  "description": "An application that allows you to create, save and delete notes.\r ## Table of Contents\r * [Website](#website)\r * [Usage](#usage)\r * [Contributing](#contributing)\r * [Screenshot](#screenshot)\r * [License](#license)\r * [Questions](#questions)\r ## Website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidMark24/NoteTakerExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidMark24/NoteTakerExpress/issues"
+  },
+  "homepage": "https://github.com/DavidMark24/NoteTakerExpress#readme"
+}
